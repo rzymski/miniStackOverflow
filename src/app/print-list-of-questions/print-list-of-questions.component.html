@@ -1,0 +1,11 @@
+<B>LISTA PYTAN</B>
+<ol>
+  <li *ngFor="let q of questions; index as i">
+    <span *ngIf="q.Answers != 0">
+      <print-question [answered]=true [question]="q" ></print-question>
+    </span>
+    <span *ngIf="q.Answers == 0">
+      <print-question [answered]=false [question]="q" ></print-question>
+    </span>
+  </li>
+</ol>

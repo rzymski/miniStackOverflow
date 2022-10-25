@@ -1,0 +1,14 @@
+.visited {
+  background-color: beige;
+  color: purple ;
+}
+
+.notVisited {
+  background-color: whitesmoke;
+  color: blue;
+}
+
+.answered {
+  background-color: azure;
+  color: green;
+}

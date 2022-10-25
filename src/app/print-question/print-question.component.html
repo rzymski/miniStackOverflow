@@ -1,0 +1,11 @@
+<span [class.visited]="visited" [class.notVisited]="!visited" (click)="questionClicked()">
+<span>Autor: {{question.Author}} </span>
+<br>
+<span>pytanie: {{question.Content}}</span>
+<br>
+<span>liczba wyświetleń pytania: {{question.VisitCount}} </span>
+<br>
+<span [class.answered]="answered">liczba odpowiedzi: {{question.Answers}} </span>
+<br>
+<span>liczba głosów: {{question.Votes}}</span>
+</span>
